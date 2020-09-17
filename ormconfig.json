@@ -1,0 +1,11 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "milkshake",
+  "database": "nest_auth_jwt",
+  "entities": ["dist/**/*.entity.js"],
+  "synchronize": true,
+  "logging": true
+}
